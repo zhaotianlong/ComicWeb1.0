@@ -1,0 +1,151 @@
+/*排行标题*/
+.comicListTitle {
+	border-bottom: 1px solid #efefef;
+	height: 60px;
+}
+
+.comicListTitle h1 {
+	border-left: 3px solid #3591d5;
+	padding-left: 10px;
+	margin-left: 15px;
+	float: left;
+}
+/*左侧*/
+.rankLeft {
+	border: 1px solid #efefef;
+	width: 250px;
+}
+
+.rankLeft ul {
+	list-style-type: none;
+	padding-left: 0px;
+	margin-top: 5px;
+}
+
+.rankLeft ul li {
+	cursor: pointer;
+	text-align: center;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.rankLeft ul li a {
+	font-size: 20px;
+	color: #404040;
+	cursor: pointer;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+/*三角*/
+.TriangleLeft {
+	width: 0px;
+	height: 0px;
+	border-color: #efefef transparent transparent;
+	border-style: solid dashed dashed;
+	border-width: 3px 3px 0px 0px;
+}
+
+.rankLeft ul li:hover {
+	border-left: 5px solid orange;
+	background-color: #ebeff2;
+}
+
+.rankLeft ul a:hover {
+	color: #1790e6;
+}
+
+.rankLeft .active {
+	border-left: 5px solid orange;
+	background-color: #ebeff2;
+}
+
+.rankLeft .active a {
+	color: #1790e6;
+}
+
+/*右侧*/
+.rankRight {
+	border: 1px solid #efefef;
+	width: 920px;
+}
+
+.rankRight ul {
+	list-style-type: none;
+	margin-right: 40px;
+}
+
+.rankRight ul li {
+	border-bottom: 1px solid #efefef;
+}
+
+.rankRight .rank_bg1 {
+	background: url('../img/rankList/icon.png') no-repeat 0 -147px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.divInline {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.rankRight .rankOneImg {
+	height: 120px;
+	width: 80px;
+	float: left;
+}
+
+.rankRight .rankOne {
+	width: 500px;
+	display: inline-block;
+}
+
+.rankRight .rankOneFont {
+	font-size: 18px;
+	font-family: "微软雅黑";
+	margin-left: 8px;
+}
+
+.rankRight .rankOneList {
+	list-style-type: none;
+	width: 500px;
+	padding-left: 0px;
+	margin-top: 10px;
+}
+
+.rankRight .rankOneList li {
+	display: inline-block;
+	font-size: 15px;
+	color: #000;
+	padding: 5px;
+	margin-right: 20px;
+	border: 0px;
+}
+
+.rankRight p {
+	font-size: 12px;
+}
+
+.gapLine {
+	margin: 20px;
+	height: 100px;
+	border-left: 2px solid #efefef;
+}
+
+.rankRight .rankA {
+	text-decoration: none;
+	margin: 20px;
+	margin-left: 50px;
+	display: block;
+	color: #000;
+}
+
+.rankRight .rank_bg2 {
+	background: url('../img/rankList/icon.png') no-repeat 0 -40px;
+	width: 48px;
+	height: 48px;
+	margin: 0px auto;
+}

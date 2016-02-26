@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="     
+           http://www.springframework.org/schema/beans     
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd     
+           http://www.springframework.org/schema/context     
+           http://www.springframework.org/schema/context/spring-context-3.0.xsd  
+          http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd  
+         	">
+	<!-- 激活一些标注 -->
+	<context:annotation-config />
+	<!-- 激活上下文 -->
+	<context:component-scan base-package="controller">
+		<context:include-filter type="annotation"
+			expression="org.springframework.stereotype.Controller" />
+	</context:component-scan>
+	<mvc:annotation-driven />
+	<!-- ViewResolver -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="viewClass"
+			value="org.springframework.web.servlet.view.JstlView" />
+		<property name="prefix" value="/JSP/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+	<mvc:resources location="WebResources/img/" mapping="/img/**" />
+	<mvc:resources location="WebResources/js/" mapping="/js/**" />
+	<mvc:resources location="WebResources/css/" mapping="/css/**" />
+	<mvc:resources location="WebResources/font/" mapping="/font/**" />
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="maxUploadSize" value="209715200" />
+		<property name="defaultEncoding" value="UTF-8" />
+		<property name="resolveLazily" value="true" />
+	</bean>
+	
+	<mvc:interceptors>
+		<bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor" />
+		<mvc:interceptor>
+			<mvc:mapping path="/personcenter/**" />
+			<bean class="interceptor.RoleInterceptor" />
+		</mvc:interceptor>
+	</mvc:interceptors>
+	
+</beans>

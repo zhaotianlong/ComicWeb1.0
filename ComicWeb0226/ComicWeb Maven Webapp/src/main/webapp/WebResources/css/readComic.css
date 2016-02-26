@@ -1,0 +1,421 @@
+.readComic_bg {
+	/*background: url('../img/readComic/bg2.jpg') no-repeat;*/
+	background-attachment: fixed;
+	opacity: 1;
+}
+.chapterUl .active{
+	background-color: #efefef;
+}
+.chapterDiv .active{
+	display: block;
+}
+.chapterDiv ul{
+	display: none;
+}
+.comicContent {
+	padding: 20px;
+	border: 1px solid #828282;
+	height: 400px;
+	width: 1160px;
+}
+
+.comicContent .comicDes .comicDes_left {
+	display: inline-block;
+}
+
+.comicContent .comicDes .comicDes_left .comicDesImg {
+	box-shadow: 0px 7px 12px #b4b3b3;
+	-webkit-box-shadow: 0px 7px 12px #b4b3b3;
+	-moz-box-shadow: 0px 7px 12px #b4b3b3;
+	-o-box-shadow: 0px 7px 12px #b4b3b3;
+	width: 207px;
+	height: 278px;
+	display: block;
+	margin-top: 20px;
+}
+
+.comicContent .comicDes .comicDes_left .good_bad {
+	display: inline-block;
+	margin-left: 40px;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+.comicDes_left .good_bad span {
+	display: block;
+	font-size: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.fontRed {
+	color: red;
+}
+
+.fontGray {
+	color: gray;
+}
+
+.fontBlue {
+	color: #3591d5;
+}
+
+.comicContent .comicDes .comicDes_right {
+	display: inline-block;
+	position: absolute;
+	margin-left: 20px;
+	width: 500px;
+}
+
+.comicContent .comicDes .comicDes_right div {
+	font-size: 18px;
+	color: gray;
+	margin-bottom: 5px;
+}
+
+.comicContent .comicDes .comicDes_right .comicDes_div {
+	border-top: 1px dashed #828282;
+	font-size: 15px;
+	font-weight: 100;
+	margin-top: 10px;
+}
+
+.comicContent .comicDes .comicDes_right .buttonBlue {
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #94c9f6;
+}
+
+.comicContent .comicDes .comicDes_right .buttonWhite {
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: white;
+	border: 1px solid #94c9f6;
+	color: #94c9f6;
+}
+
+.buttonGroup {
+	width: 300px;
+	margin: 0px auto;
+	border-bottom: 0px;
+}
+
+.comicContent .comicDes .comicDes_right span {
+	margin-right: 10px;
+}
+
+/*作者介绍*/
+.comicContent .comicDes  .comicerDes {
+	display: inline-block;
+	float: right;
+	width: 400px;
+	height: 400px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: url('../img/bg_footer.png');
+	padding-left: 10px;
+	margin-top: -20px;
+	margin-right: -20px;
+}
+
+.comicerDes .comicerDes_top img {
+	height: 70px;
+	width: 70px;
+	display: inline-block;
+}
+
+.comicerDes .comicerDes_top div {
+	display: inline-block;
+	position: absolute;
+	margin-left: 20px;
+}
+
+.comicerDes .comicerDes_top div span {
+	display: block;
+	font-size: 18px;
+	color: gray;
+	padding-bottom: 5px;
+}
+
+.comicerDes .comicerDes_middle {
+	width: 400px;
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+.comicerDes .comicerDes_middle span {
+	display: inline-block;
+	background: url('../img/readComic/intro_ico_15.gif') no-repeat;
+	height: 17px;
+	width: 20px;
+	margin-right: 10px;
+}
+
+.comicerDes .comicerDes_middle h3 {
+	display: inline-block;
+	font-size: 18px;
+	line-height: 18px;
+	color: #fe5419;
+	margin: 0px;
+}
+
+.comicerDes .comicerDes_middle p {
+	border-bottom: 1px dashed gray;
+	padding-bottom: 1px;
+}
+
+.comicerDes .comicerDes_bottom span {
+	display: inline-block;
+	background: url('../img/readComic/intro_ico_16.png') no-repeat;
+	height: 17px;
+	width: 20px;
+	margin-right: 10px;
+}
+
+.comicerDes .comicerDes_bottom h3 {
+	display: inline-block;
+	font-size: 18px;
+	line-height: 18px;
+	color: #62D85A;
+	margin: 0px;
+}
+
+.comicerDes .comicerDes_bottom div {
+	margin-top: 10px;
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+/*章节列表*/
+.comicCommend .chapterDiv{
+	width: 100%;
+	border: 1px solid #efefef;
+}
+.comicCommend .chapterDiv ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.comicCommend .chapterDiv ul li{
+		display: inline-block;
+		margin: 5px 10px;
+}
+.comicCommend .chapterUl{
+	margin: 0px;
+	list-style-type: none;
+}
+.comicCommend .chapterUl li{
+	display: inline-block;
+	padding:10px 15px;
+	margin: 0px;
+	margin-top: 2px;
+	border: 1px solid #efefef;
+	cursor:pointer;
+}
+.comicCommend .chapterUl li:hover{
+	background-color: #efefef
+}
+
+/*网友评论*/
+.comicCommend {
+	display: inline-block;
+	width: 940px;
+	float: right;
+	margin-top: 5px;
+}
+
+.comicCommend .commendContent {
+	border: 1px solid #efefef;
+}
+
+.comicCommend .commendContent .commendTitle {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #efefef;
+	padding-left: 20px;
+}
+
+.comicCommend .commendContent .commendTitleLine {
+	display: inline-block;
+	border-left: 3px solid #efefef;
+	height: 18px;
+}
+
+.comicCommend .commendContent .commendTitleFont {
+	display: inline-block;
+	font-size: 20px;
+}
+
+.comicCommend .commendContent .commendTitleFontRight {
+	display: inline-block;
+	float: right;
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+.comicCommend .commendContent form textarea {
+	border: 1px solid #efefef;
+	resize: none;
+	width: 90%;
+	font-size: 15px;
+	color: #000;
+	margin-top: 10px;
+	margin-left: 35px;
+}
+
+.comicCommend .commendContent .leftAlt {
+	float: left;
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.comicCommend .commendContent .leftAlt a {
+	text-decoration: none;
+	font-size: 15px;
+	color: gray;
+	display: inline-block;
+}
+
+.comicCommend .commendContent .rightAlt .buttonOrange {
+	padding: 5px 10px 5px 10px;
+	background-color: orange;
+}
+
+.comicCommend .commendContent .leftAlt .line {
+	display: inline-block;
+	height: 15px;
+	border-right: 1px solid #efefef;
+	border-left: 1px solid #fff;
+}
+
+.comicCommend .commendContent .rightAlt {
+	float: right;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.comicCommend .commendContent .commentList {
+	padding: 15px;
+}
+
+.commentList  .commentListTwo {
+	margin-left: 100px;
+}
+
+.commentList .commentListOne {
+	margin-top: 30px;
+	border-top: 1px solid gray;
+	padding-top: 20px;
+}
+
+.commentListOne img {
+	float: left;
+	height: 80px;
+	width: 80px;
+}
+
+.commentListOne .commentListOne_top {
+	height: 20px;
+	margin-bottom: 10px;
+	margin-left: 90px;
+}
+
+.commentListOne .commentListOne_top .time {
+	font-size: 10px;
+	color: gray;
+}
+
+.commentListOne .commentListOne_top  .name {
+	font-size: 18px;
+}
+
+.commentListOne .commentListOne_top  a {
+	text-decoration: none;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.commentListOne_top .inputDis {
+	line-height: 20px;
+	border: 1px solid #efefef;
+	width: 100%;
+}
+
+.commentListOne .commentListOne_top  .iconSmall1 {
+	background: url('../img/readComic/comment_ico_03.gif') no-repeat;
+	height: 15px;
+	width: 15px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.commendContent .subscriptionFooter {
+	width: 400px;
+	margin: 0px auto;
+	margin-bottom: 10px;
+}
+
+.commendContent .buttonWhite {
+	padding: 5px 10px 5px 10px;
+	border-radius: 5px;
+}
+
+/*左侧同类推荐和猜你喜欢*/
+.comicRecommend {
+	display: inline-block;
+	width: 230px;
+	height: 1000px;
+	float: left;
+	margin-top: 5px;
+}
+
+.comicRecommend .sameRecommend {
+	border: 1px solid #efefef;
+}
+
+.comicRecommend .sameRecommend .recommendTitle {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #efefef;
+	padding-left: 20px;
+}
+
+.comicRecommend .sameRecommend .recommendTitleLine {
+	display: inline-block;
+	border-left: 3px solid #efefef;
+	height: 18px;
+}
+
+.comicRecommend .sameRecommend .recommendTitleFont {
+	display: inline-block;
+	font-size: 20px;
+}
+
+.sameRecommend ul {
+	padding: 0px;
+	list-style: none;
+}
+
+.sameRecommend ul li {
+	margin-bottom: 10px;
+}
+
+.sameRecommend ul li img {
+	margin-left: 20px;
+	height: 80px;
+	width: 70px;
+}
+
+.sameRecommend ul li div {
+	display: inline-block;
+	margin-right: 10px;
+	position: absolute;
+}
+
+.sameRecommend ul li span {
+	display: block;
+	font-size: 15px;
+	color: #828282;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}

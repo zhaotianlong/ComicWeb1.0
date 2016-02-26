@@ -1,0 +1,58 @@
+.comic{
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.comic .comicTitle{
+	font-size: 40px;
+	text-align: center;
+}
+.comic .subscriptionFooter{
+	width: 40%;
+	margin:0px auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+} 
+.comic .buttonWhite{
+	padding:5px 10px 5px 10px;
+	border-radius: 5px;
+}
+.comic .comicLine{
+	border-top: 1px solid #828282;
+	border-bottom: 1px solid #efefef;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.comic .comicImg{
+	border:1px solid gray;
+	padding: 5px;
+	margin:0px auto;
+	width: 850px;
+}
+.comic .comicImg img{
+	height: 1125px;
+	width: 840px;
+}
+.comic .spitslot{
+	width: 850px;
+	border: 1px solid #efefef;
+	padding: 5px;
+	margin:0px auto;
+}
+
+.comic .spitslot .spitslotTitle{
+	font-size: 15px;
+	color: gray;
+	margin-bottom: 5px;
+}
+
+.comic .spitslot .spitslotList div{
+	display: inline-block;
+	background-color: orange;
+	font-size: 18px;
+	padding: 5px;
+	color: #fff;
+	margin-top: 2px;
+	margin-right: -7px;
+}

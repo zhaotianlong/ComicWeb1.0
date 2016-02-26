@@ -1,0 +1,205 @@
+.login_bg {
+	margin: 0 auto;
+	background: url('../img/login/l3.jpg') no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.register_bg {
+	margin: 0 auto;
+	background: url('../img/login/l4.jpg') no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.login_div {
+	position: absolute;
+	background-color: #5C356C;
+	width: 400px;
+	float: right;
+	opacity: 0.8;
+	right: 15%;
+	top: 20%;
+	border-radius: 5px;
+}
+
+.login_div .login_title {
+	background: url('../img/login/login_title_03.gif') no-repeat;
+	position: absolute;
+	right: 28%;
+	width: 180px;
+	height: 83px;
+	top: -30%;
+}
+
+.login_div form {
+	margin-top: 10px;
+}
+
+.login_div .input_div {
+	margin: 20px auto;
+	width: 300px;
+	z-index: 1;
+	background-color: #fff;
+	height: 45px;
+}
+
+.input_div input {
+	padding: 0 50px 0 10px;
+	width: 236px;
+	height: 41px;
+	font-size: 20px;
+}
+
+.input_div .icon_div {
+	height: 30px;
+	width: 35px;
+	z-index: 2;
+	top: 12%;
+	right: 12%;
+	position: relative;
+	display: inline-block;
+	top: -85%;
+	right: -85%;
+}
+
+.input_gender {
+	padding: 0 50px 0 10px;
+}
+
+.input_gender input {
+	display: inline-block;
+}
+
+.input_gender .icon_div {
+	height: 30px;
+	width: 35px;
+	z-index: 2;
+	position: relative;
+	display: inline-block;
+}
+
+.input_gender .widthCenter {
+	width: 200px;
+	margin: 20px auto;
+}
+
+.input_date {
+	width: 400px;
+}
+
+.input_date .widthCenter {
+	width: 250px;
+	margin: 20px auto;
+}
+
+.fIcon {
+	background: url('../img/login/gender_female.png') no-repeat;
+}
+
+.mIcon {
+	background: url('../img/login/gender_male.png') no-repeat;
+}
+
+.userIcon {
+	background: url('../img/login/userIcon.png') no-repeat;
+}
+
+.passwordIcon {
+	background: url('../img/login/passwordIcon.png') no-repeat;
+}
+
+.nameIcon {
+	background: url('../img/login/nameIcon.png') no-repeat;
+}
+
+.mailIcon {
+	background: url('../img/login/mailIcon.png') no-repeat;
+}
+
+.phoneIcon {
+	background: url('../img/login/phoneIcon.png') no-repeat;
+}
+
+.repeatIcon {
+	background: url('../img/login/repeatIcon.png') no-repeat;
+}
+
+.login_div .other {
+	margin: 20px auto;
+	width: 350px;
+	color: #fff;
+}
+
+.other a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.other .other_div {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.other .otherLine {
+	width: 0px;
+	border-right: 1px solid #424242;
+	border-left: 1px solid #efefef;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.login_div input[type="submit"] {
+	display: block;
+	width: 300px;
+	height: 40px;
+	border: 0px;
+	margin: 0 auto;
+	border-radius: 5px;
+	font-size: 25px;
+	color: #776C97;
+	z-index: 1;
+	background-color: #F1B4D5;
+	font-weight: 100;
+	cursor: pointer;
+}
+
+.login_div .thirdParty {
+	width: 400px;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin-bottom: 10px;
+}
+
+.login_div .thirdPartyLine {
+	border-top: 1px solid #424242;
+	border-bottom: 1px solid #efefef;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.thirdParty_bg1 {
+	display: inline-block;
+	background: url('../img/login/thirdParty-btn_01.gif') no-repeat;
+	height: 35px;
+	width: 130px;
+	margin-right: 15px;
+}
+
+.thirdParty_bg2 {
+	display: inline-block;
+	background: url('../img/login/thirdParty-btn_04.gif') no-repeat;
+	height: 35px;
+	width: 130px;
+	margin-left: 15px;
+}
+
+.errorMessage {
+	font-size: 15px;
+	color: red;
+	font-family: "微软雅黑";
+	margin: 20px auto;
+	width: 300px;
+	z-index: 1;
+	text-align: center;
+}
